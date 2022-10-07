@@ -1,0 +1,22 @@
+C++ is an object oriented programming language.
+Some elements of OOP are:
+1) Modelling - A model is a representation of reality.
+2) Encapsulation - keeping data and operations within their models.
+    Models must only include information about themselves.
+    Operations must be concise
+
+The C++ construct for models are classes.
+Classes contain members of two types: Data and Functions.
+An instance of a class is known as an object.
+
+Access Specifiers: The class members may be public or private.
+Public members are accessible by any part of the code.
+Private members are accessible only within the class.
+Protected class members are accessible in inherited classes 
+
+Inheritance and Polymorphism:
+A class may have subclasses based on it.
+A subclass may inherit members from its superclass.
+Polymorphism - The base class may  define some function,
+but the implementation of that function may be different among the different
+inherited subclasses. This makes these sibling classes polymorphic.

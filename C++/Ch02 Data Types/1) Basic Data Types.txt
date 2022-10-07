@@ -1,0 +1,40 @@
+It is essental to know the supported data types in a programming language.
+C++ supports a very basic set of data types.
+1) Integer type:
+    -> Integers may be signed or unsigned. 
+    -> This type is specified with the int keyword.
+    -> The size is implementation dependant (usually it is 32 bits, but sometimes it can be 16 bits also.)
+
+2) Character type: 
+    -> Specified with the char keyword.
+    -> It is designed to represent ASCII characters.
+    -> Its size is 8 bits.
+    -> You may also just use it as an integer.
+
+3) Floating point numbers:
+    -> Floating point numbers represnt real numbers.
+    -> They are numbers containing a decimal point. Eg: 3.1415... (or pi), 0.5, 1.3333, -12.44
+    -> They implement the IEE 754 binary floating point standard.
+    -> This type can be specified using three types: float, double and long double
+    -> double has a much larger range and precision than float, but it is more
+       computatuionally expensive (lot of memory) to work with doubles than floats.
+
+4) Boolean type:
+    -> C++ supports a boolean type to represn true and false.
+    -> This type is specified with the keyword bool.
+    -> true, false are also defined keywords in c++ which are of the type bool.
+    -> In c++, 0 has a boolean value of false.
+    -> Anything other than 0 has a boolean value true.
+
+5) String Class:
+    -> Strings are not natively supported by the language, i.e they are not a primitive data type.
+    -> This is because in c, you may use strings as an array of characters terminated with the value 0.
+    -> However in c++, strings are supported in the standard library as a class.
+    -> The <string> header file provides the string class with lots of manipulation functions.
+
+6) Pointers:
+    -> Pointers are a special data type for memory addresses.
+    -> Pointers may act as a reference to the existing variables.
+    -> The same pointer may be used to access many different variables sequentially.
+
+Visit cppreference.com for a detailed description of the supported types and many other things.
