@@ -120,5 +120,5 @@ Task lists are like checkboxes on github.
 Write them like unordered lists (with asteriks) and [x] for checked and [] for unchecked
 * [x] task 1
 * [x] task 2
-* [] task 3
+* [ ] task 3
 
