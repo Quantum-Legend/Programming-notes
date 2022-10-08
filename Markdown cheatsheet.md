@@ -3,9 +3,16 @@ Check the raw or open the file in a text editor (like VS code) to see the full t
 
 The Auto-Open Markdown Preview extension for VS code can help write markdown
 
----
 <!-- Headings -->
-> Headings are made using # symbol
+> * Headings are made using # symbol
+```Markdown
+# Heading 1 (H1) 
+## Heading 2 (H2) 
+### Heading 3 (H3)
+#### Heading 4 (H4)
+##### Heading 5 (H5)
+###### Heading 6 (H6)
+```
 # Heading 1 (H1) 
 ## Heading 2 (H2) 
 ### Heading 3 (H3)
@@ -15,7 +22,7 @@ The Auto-Open Markdown Preview extension for VS code can help write markdown
 
 ---
 <!-- Italics -->
-> Italics are done by wrapping the text in:
+> * Italics are done by wrapping the text in asterik (*) or underscore (_):
 
 *This text* is italic using *asterik* (*)
 
@@ -23,26 +30,26 @@ _This text_ is italic using _underscore_ (_)
 
 ---
 <!-- Bold -->
-> Bold is done by wrapping the text in:
+> * Bold is done by wrapping the text in double asterik (**) or double underscore(__):
 
 **This text** is bold using **double asterik** (**) 
 
-__This text__ is bold using __double underscore__ ( __ )
+__This text__ is bold using __double underscore__ (__)
 
 ---
 <!-- Strikethrough -->
-> Strikethrough is done by wrapping the text in:
+> * Strikethrough is done by wrapping the text in:
 
 ~~This text~~ is strikethrough using tildae (~)
 
 ---
 <!-- Horizontal Rule -->
-> Horizontal Rule is made using --- or ___
+> * Horizontal Rule is made using --- or ___
 
 ---
 ___
 
-> Asteriks, Underscores can be actually displayed using excape sequence (\) 
+> * Asteriks, Underscores can be actually displayed using excape sequence (\) 
 
 \*Hi\* \_This will show\_ the \*\*Characters\*\*
 ```Markdown
@@ -51,20 +58,20 @@ ___
 
 ---
 <!-- Blockquote -->
-> To make a blockquote we use the > sign
+> * To make a blockquote we use the > sign
 
-> This is a quote. We have used quotes in this md file for the description of the syntax.
+> * This is a quote. We have used quotes in this md file for the description of the syntax.
 
 ---
 <!-- Links -->
-> For links we wrap the text to be shown in [] and then type the url in () after it.
+> * For links we wrap the text to be shown in [] and then type the url in () after it.
 
 ```Markdown
 [<Text to be shown>](<url>)
 ```
 [My Github Repo](https://github.com/Quantum-Legend/Programming-notes)
 
-> To have a title to be shown on hovering over it put a space after the url and type the title within ""
+> * To have a title to be shown on hovering over it put a space after the url and type the title within ""
 
 ```Markdown
 [Text to be shown](<url> "<Text to be shown when hovered>")
@@ -73,7 +80,7 @@ ___
 
 ---
 <!-- Unordered Lists/Bullet points -->
-> To create unordered lists (bullet points), use a asterisk (\*) followed by space for each item.
+> * To create unordered lists (bullet points), use a asterisk (\*) followed by space for each item.
 For nested items, indent with tabs.
 
 * Item 1
@@ -85,7 +92,7 @@ For nested items, indent with tabs.
 
 ---
 <!-- Ordered Lists/Numbered points -->
-> To create ordered lists (numbered points), use the syntax 1. followed by space for each item.
+> * To create ordered lists (numbered points), use the syntax 1. followed by space for each item.
 For nested items, indent with tabs.
 
 1. Item 1
@@ -97,13 +104,13 @@ For nested items, indent with tabs.
 
 ---
 <!-- Inline Code Blocks -->
-> To create inline code blocks, we enclose within backticks (`).
+> * To create inline code blocks, we enclose within backticks (`).
 
 `<p>This is a paragraph<\p>`
 
 ---
 <!-- Images -->
-> Inserting images is similar to links but we put an ! before the []
+> * Inserting images is similar to links but we put an ! before the []
 
 ```Markdown
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
@@ -116,14 +123,14 @@ For nested items, indent with tabs.
 
 ---
 <!-- Code Blocks -->
-> For showing codeblocks, enclose within triple backticks (```)
+> * For showing codeblocks, enclose within triple backticks (```)
 
 ```
     git add <file name>
     git commit -m "message"
 ```
 
-> You can specify syntax specific codeblocks by specifying it in front of the opening triple backticks (Eg: ```javascript)
+> * You can specify syntax specific codeblocks by specifying it in front of the opening triple backticks (Eg: ```javascript)
 
 ### Python codeblock:
 ```python
@@ -143,7 +150,7 @@ function add(num1, num2) {
 
 ---
 <!-- Tables -->
-> To insert tables we use | as column seperator then horizontal rule (---) on second line
+> * To insert tables we use | as column seperator then horizontal rule (---) on second line
 
 ```Markdown
 | Item        | ID |
@@ -158,7 +165,7 @@ function add(num1, num2) {
 
 ---
 <!-- Task Lists -->
-> Task lists are like checkboxes on github.
+> * Task lists are like checkboxes on github.
 Write them like unordered lists (with asteriks) followed by [x] for checked or [] for unchecked
 
 ```Markdown
@@ -169,5 +176,3 @@ Write them like unordered lists (with asteriks) followed by [x] for checked or [
 * [x] task 1
 * [x] task 2
 * [ ] task 3
-
----
