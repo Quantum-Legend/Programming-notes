@@ -1,3 +1,5 @@
+# Markdown Cheatsheet
+
 <!-- Comments -->
 Check the raw or open the file in a text editor (like VS code) to see the full text.
 
@@ -49,7 +51,7 @@ __This text__ is bold using __double underscore__ (__)
 ---
 ___
 
-> * Asteriks, Underscores can be actually displayed using excape sequence (\) 
+> * Asteriks, Underscores can be actually displayed using escape sequence (\\) 
 
 \*Hi\* \_This will show\_ the \*\*Characters\*\*
 ```Markdown
@@ -176,3 +178,4 @@ Write them like unordered lists (with asteriks) followed by [x] for checked or [
 * [x] task 1
 * [x] task 2
 * [ ] task 3
+
