@@ -7,5 +7,6 @@ There are also other useful things like cheat sheets for command line and markdo
 * [x] Command Line
 * [x] Markdown
 * [ ] git
+* [x] Vim
 * [x] Python (incomplete)
 * [x] C++ (incomplete)
