@@ -31,6 +31,14 @@
 
 [Tables](#tables)
 
+[Lists](#lists)
+* [Unordered Lists](#unordered-lists)
+* [Ordered Lists](#ordered-lists)
+* [Definition Lists](#definition-lists)
+* [Nested Lists](#nested-lists)
+
+
+
 ## What is HTML?
 
 HTML stands for **H**yper **T**ext **M**arkup **L**anguage.
@@ -319,3 +327,104 @@ Various attributes can be used to customize the table.
 * `<table width = "500px">` or `<table width = "50%">` - Specifies the width of the table in pixels or as percentage of the webpage.
 * `<th colspan = "2">` - Makes the data in this tag occupy space of two columns instead of 1, can also be used with `<td>`
 * `<th rowspan = "5">` - Makes the data in this tag occupy space of 5 rows instead of 1, can also be used with `<td>`
+
+## Lists
+
+### Unordered Lists:
+The `<ul>` tag is used to create an unordered list. The `<li>` tag is used within it to list each item of the list.
+
+```HTML
+<h1> Grocery List: </hl>
+<ul>
+	<li> Bread </li>
+	<li> Eggs </li>
+	<li> Cheese </li>
+</ul>
+```
+Shows up as:
+#### Grocery List
+* Bread
+* Eggs
+* Cheese
+
+You can also specify the type or style of the bullets for the list, using the type atttribute in the `<ul>` tag such as `<ul type = "circle">`
+The default bullet type is "disc", other types are "circle" and "square" for example. There is also "none" type which specifies that there should be no bullets for the list.
+
+### Ordered Lists:
+The `<ol>` tag is used to create an ordered list. The `<li>` tag is used within it for listing each item in the list in an ordered format.
+
+```HTML
+<h1> Grocery List: </hl>
+<ol>
+	<li> Bread </li>
+	<li> Eggs </li>
+	<li> Cheese </li>
+</ol>
+```
+Shows up as:
+#### Grocery List
+1. Bread
+1. Eggs
+1. Cheese
+
+You can also specify the type or style of the bullets for the list, using the type atttribute in the `<ol>` tag such as `<ol type = "A">`
+The default bullet type is numbers i.e. "1", other types are "A" which shows the list order as numbers 1, 2, 3... and "i" or "I" which shows the list order as roman numerals i, ii, iii... or I, II, III... for example.
+
+### Definition Lists:
+A definition list is a list of key-value pairs. It is created using a `<dl>` tag.
+
+Instead of using an `<li>` tag inside it, we use the `<dt>` tag to specify the term and the `<dd>` tag to specify its definition.
+
+```HTML
+<dl>
+	<dt>HTML</dt>
+	<dd>Hyper Text Markup Language</dd>
+	<dt>CSS</dt>
+	<dd>Cascading Style Sheets</dd>
+</dl>
+```
+Looks like:
+<dl>
+	<dt>HTML</dt>
+	<dd>Hyper Text Markup Language</dd>
+	<dt>CSS</dt>
+	<dd>Cascading Style Sheets</dd>
+</dl>
+
+### Nested Lists:
+We can have one list nested inside another list.
+
+```HTML
+<ul>
+	<li> Cheese </li>
+	<ol>
+		<li> Cheddar </li>
+		<li> Brie </li>
+		<li> Burrata </li>
+	</ol>
+	<li> Milk </li>
+	<ol>
+		<li> Cow milk </li>
+		<li> Goat milk </li>
+		<li> Almond milk </li>
+		<li> Soy milk </li>
+	</ol>
+</ul>
+```
+Will look like:
+<ul>
+	<li> Cheese </li>
+	<ol>
+		<li> Cheddar </li>
+		<li> Brie </li>
+		<li> Burrata </li>
+	</ol>
+	<li> Milk </li>
+	<ol>
+		<li> Cow milk </li>
+		<li> Goat milk </li>
+		<li> Almond milk </li>
+		<li> Soy milk </li>
+	</ol>
+</ul>
+
